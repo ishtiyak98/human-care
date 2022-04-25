@@ -1,6 +1,7 @@
 import React from "react";
 import "./HomeBanner.css";
 import Header from "../Header/Header";
+import CharityEvents from "../CharityEvents/CharityEvents";
 
 const HomeBanner = () => {
   const handleSubmit = (event) => {
@@ -11,8 +12,8 @@ const HomeBanner = () => {
     <div className="main-banner">
       <Header></Header>
 
-      <div className="lg:mt-[90px]">
-        <h1 className="text-5xl font-semibold text-center mb-14">
+      <div className="lg:my-[180px]">
+        <h1 className="text-5xl font-semibold text-center mb-16">
           I GROW BY HELPING PEOPLE IN NEED
         </h1>
 
@@ -31,6 +32,10 @@ const HomeBanner = () => {
             />
           </form>
         </div>
+      </div>
+
+      <div>
+        <CharityEvents></CharityEvents>
       </div>
     </div>
   );
