@@ -9,24 +9,24 @@ const HomeBanner = () => {
   };
 
   return (
-    <div className="main-banner">
+    <div className="main-banner bg-fixed">
       <Header></Header>
 
-      <div className="lg:my-[180px]">
-        <h1 className="text-5xl font-semibold text-center mb-16">
+      <div className="my-[100px] lg:my-[150px]">
+        <h1 className="text-4xl lg:text-5xl font-semibold text-center mb-16">
           I GROW BY HELPING PEOPLE IN NEED
         </h1>
 
         <div className="flex justify-center">
-          <form onSubmit={handleSubmit}>
+          <form onSubmit={handleSubmit} className="space-y-5 text-center">
             <input
-              className="w-[450px] text-xl py-2 px-2 rounded-l-md focus:outline-none ring-1 ring-green-600"
+              className="w-[320px] lg:w-[450px] text-xl py-2 px-2 rounded-l-md focus:outline-none ring-1 ring-green-600"
               type="text"
               name=""
               id=""
             />
             <input
-              className="text-xl text-white py-2 px-10 rounded-r-md bg-green-600 ring-1 ring-green-600 hover:bg-green-800 hover:cursor-pointer"
+              className="text-xl text-white py-2 px-5 lg:px-10 rounded-r-md bg-green-600 ring-1 ring-green-600 hover:bg-green-800 hover:cursor-pointer"
               type="submit"
               value="Search"
             />
