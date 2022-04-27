@@ -13,7 +13,7 @@ const CharityEvents = () => {
    console.log(events);
     return (
         <div className='px-0 lg:px-24 lg:pb-[100px]'>
-            <div className='grid grid-cols-1 lg:grid-cols-4 gap-y-10 gap-x-5'>
+            <div className='grid grid-cols-1 lg:grid-cols-4 gap-y-20 gap-x-20'>
                 {
                     events.map(event=><EventCard event={event}></EventCard>)
                 }

@@ -9,7 +9,7 @@ const HomeBanner = () => {
   };
 
   return (
-    <div className="main-banner bg-fixed">
+    <div className="main-banner ">
       <Header></Header>
 
       <div className="my-[100px] lg:my-[150px]">
